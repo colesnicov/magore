@@ -1,0 +1,28 @@
+menu "ILI9341"
+	comment "Configure ILI9341 Display Controller"
+                  
+	config ILI9341_CS
+	    int "CS pin number"
+	    default 15
+	    help
+	        ...
+
+	config ILI9341_RESET
+	    int "RESET pin number"
+	    default -1
+	    help
+	        ...
+
+	config ILI9341_DC
+	    int "D/C pin number"
+	    default 16
+	    help
+	        ...
+
+	config ILI9341_DEBUG
+	    int "Debug level"
+	    default 2
+	    help
+	        ...
+	          
+endmenu
